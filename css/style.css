@@ -1,0 +1,86 @@
+.callout-container {
+    height: 100vh;
+    background: url(../images/whiskey-glass-3.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.navbar {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+    border: 0;
+}
+.container-fluid{
+   padding-left: 0;
+   padding-right: 0;
+}
+
+
+.navbar.navbar-brand {
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.navbar-btn {
+    color: black;
+    background-color: orange;
+    border-radius: 23px;
+    border-color: transparent;
+}
+
+.alert-container.col-xs-12 {
+    padding-right:0;
+    padding-left:0;
+}
+
+.sales-alert {
+    background-color: yellow;
+    padding: 0;
+    margin: 0;
+    width:100%;
+    border:none;
+    border-radius:0px;
+    border: 1px solid transparent;
+}
+
+
+.jumbotron {
+    background-color: transparent;
+    color: white;
+}
+
+.text-muted {
+    color: white;
+}
+
+.btn-cta {
+    color: black;
+    background-color: orange;
+    border-radius: 23px;
+}
+
+.quotes-container {
+    background-color: orange;
+}
+
+.features-container {
+    color: orange;
+    background-color: black;
+}
+
+.favourites-container {}
